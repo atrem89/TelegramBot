@@ -2,8 +2,8 @@ import telebot
 from telebot import types
 from collections import defaultdict
 from questions import questions
+from zoo import TOKEN
 
-TOKEN = '6831115887:AAGfsMz0es-PaQ398K4kGGWTFLlxsaXEZr0'
 bot = telebot.TeleBot(TOKEN)
 
 # Следим за выборами пользователя
